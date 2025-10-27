@@ -1,4 +1,4 @@
-﻿namespace ReactApp.Server.Models
+﻿namespace TilesetWebApp.Server.Models
 {
     public class Comment
     {

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ReactApp.Server.Models;
+using TilesetWebApp.Server.Models;
 
-namespace ReactApp.Server.Controllers
+namespace TilesetWebApp.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

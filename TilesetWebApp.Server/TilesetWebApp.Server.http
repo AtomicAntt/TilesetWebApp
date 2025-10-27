@@ -1,0 +1,15 @@
+@TilesetWebApp.Server_HostAddress = https://localhost:7071
+
+GET {{TilesetWebApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{TilesetWebApp.Server_HostAddress}}/api/comments
+Content-Type: application/json
+
+{
+  "text" : "Hello world!"
+}
+
+###

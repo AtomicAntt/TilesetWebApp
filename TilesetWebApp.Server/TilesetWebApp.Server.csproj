@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <SpaRoot>..\reactapp.client</SpaRoot>
+    <SpaRoot>..\tilesetwebapp.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
     <SpaProxyServerUrl>https://localhost:54620</SpaProxyServerUrl>
     <UserSecretsId>8c1810d0-0587-4613-a795-9aa9a4dde3b3</UserSecretsId>
@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\reactapp.client\reactapp.client.esproj">
+    <ProjectReference Include="..\tilesetwebapp.client\tilesetwebapp.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

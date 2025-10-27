@@ -1,0 +1,2 @@
+C:\Users\antho\source\repos\ReactApp\reactapp.client\obj\Debug\tilesetwebapp.client.esproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\ReactApp\tilesetwebapp.client\obj\Debug\tilesetwebapp.client.esproj.CoreCompileInputs.cache

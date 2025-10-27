@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ReactApp.Server.Models
+namespace TilesetWebApp.Server.Models
 {
     public class CommentContext : DbContext
     {

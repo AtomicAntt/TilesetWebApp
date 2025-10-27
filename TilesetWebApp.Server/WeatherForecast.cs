@@ -1,4 +1,4 @@
-namespace ReactApp.Server
+namespace TilesetWebApp.Server
 {
     public class WeatherForecast
     {

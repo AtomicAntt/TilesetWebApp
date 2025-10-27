@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using ReactApp.Server.Models;
+using TilesetWebApp.Server.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
