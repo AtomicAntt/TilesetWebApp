@@ -1,0 +1,15 @@
+@ReactApp.Server_HostAddress = https://localhost:7071
+
+GET {{ReactApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{ReactApp.Server_HostAddress}}/api/comments
+Content-Type: application/json
+
+{
+  "text" : "Hello world!"
+}
+
+###
