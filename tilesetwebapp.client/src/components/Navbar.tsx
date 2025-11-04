@@ -6,9 +6,9 @@ function Navbar() {
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark nav-underline">
                 <div className="container">
                     // Navbar Brand
-                    <a href="/" className="navbar-brand">
+                    <Link to="/" className="navbar-brand">
                         <div className="fs-3 fw bold">Tileset Web App</div>
-                    </a>
+                    </Link>
 
                     // Hamburger Menu
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -19,10 +19,10 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navmenu">
                         <ul className="navbar-nav ms-auto d-flex fclex-row align-items-center gap-3">
                             <li>
-                                <a href="/About" target="_blank" className="nav-link" title="View About">About</a>
+                                <Link to="/About" className="nav-link" title="View About">About</Link>
                             </li>
                             <li>
-                                <a href="/Comments" target="_blank" className="nav-link" title="View Comments">Comments</a>
+                                <Link to="/Comments" className="nav-link" title="View Comments">Comments</Link>
                             </li>
                         </ul>
                     </div>
