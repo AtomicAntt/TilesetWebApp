@@ -5,17 +5,17 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg bg-dark navbar-dark nav-underline">
                 <div className="container">
-                    // Navbar Brand
+                    {/* Navbar Brand */}
                     <Link to="/" className="navbar-brand">
                         <div className="fs-3 fw bold">Tileset Web App</div>
                     </Link>
 
-                    // Hamburger Menu
+                    {/* Hamburger Menu */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    // Nav Menu
+                    {/* Nav Menu */}
                     <div className="collapse navbar-collapse" id="navmenu">
                         <ul className="navbar-nav ms-auto d-flex fclex-row align-items-center gap-3">
                             <li>

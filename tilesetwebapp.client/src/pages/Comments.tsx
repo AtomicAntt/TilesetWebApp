@@ -51,7 +51,7 @@ function Comments() {
     }, []);
 
     return (
-        <div>
+        <div className="container">
             <input
                 value={newComment}
                 onChange={(e) => setNewComment(e.target.value)}

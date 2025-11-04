@@ -1,6 +1,8 @@
 function Home() {
-  return (
-    <p>Home</p>
+    return (
+        <div className="container">
+            <p>Home</p>
+        </div>
   );
 }
 
