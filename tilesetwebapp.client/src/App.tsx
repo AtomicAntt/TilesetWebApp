@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Comments from "./pages/Comments";
+import Editor from "./pages/Editor";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/comments" element={<Comments />} />
+                <Route path="/editor" element={<Editor />} />
             </Routes>
         </Router>
     );

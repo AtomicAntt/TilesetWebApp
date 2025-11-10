@@ -24,6 +24,9 @@ function Navbar() {
                             <li>
                                 <Link to="/Comments" className="nav-link" title="View Comments">Comments</Link>
                             </li>
+                            <li>
+                                <Link to="/Editor" className="nav-link" title="View Editor">Editor</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
